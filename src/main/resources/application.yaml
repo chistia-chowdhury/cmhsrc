@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: cmhsrc
+
+server:
+  port: 8082
