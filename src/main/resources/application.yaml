@@ -3,5 +3,5 @@ spring:
     name: cmhsrc
 
 server:
-  port: 8082
+  port: ${PORT:8080}
 
