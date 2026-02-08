@@ -14,4 +14,8 @@ public class Hello {
     public String sayHello() {
         return "Hello World";
     }
+    @GetMapping("/GetData")
+    public String sayHello() {
+        return "Get Data from a valid API";
+    }
 }
